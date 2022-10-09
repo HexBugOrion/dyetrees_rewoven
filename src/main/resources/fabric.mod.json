@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "dye_trees",
+  "version": "${version}",
+
+  "name": "Dye Trees Rewoven",
+  "description": "A continuation of a very old mod called, well, 'Dye Trees'.",
+  "authors": [
+    "VoxelDragon6"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/dye_trees/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.timeworndevs.dyetrees.DyeTrees"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
